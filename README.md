@@ -1,6 +1,6 @@
 #Junior test project
 
-#####How to install and use this webservice
+##### How to install and use this webservice
 
 1. Download this project from git as a zip-file
 2. Unzip anywhere on your machine
