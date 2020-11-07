@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+    <p1>{{response}}</p1>
+
+    <form action="{% url 'deal-upload' %}" method="post" enctype="multipart/form-data">
+        {% csrf_token %}
+        {{ form }}
+        <br/>
+        <input type="submit" name="files" value="Submit"/>
+    </form>
+
+</body>
+</html>

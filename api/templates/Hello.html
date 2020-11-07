@@ -1,0 +1,14 @@
+<html>
+<body>
+<h1>Deals</h1>
+<ul>
+    {% for customer in customers %}
+    <li>
+        {{ customer.username }}
+        {{ customer.spent_money }}
+        {{ customer.gem_names }}
+    </li>
+    {% endfor %}
+</ul>
+</body>
+</html>
